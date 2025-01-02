@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-23T21:31:14 IST" name="Suite" finished-at="2023-11-23T21:31:39 IST" duration-ms="25270">
+    <groups>
+    </groups>
+    <test started-at="2023-11-23T21:31:14 IST" name="Test" finished-at="2023-11-23T21:31:39 IST" duration-ms="25270">
+      <class name="Test_Scenarios.TestMethod_Google_Search">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test_Scenarios.TestMethod_Google_Search@17f9d882]" started-at="2023-11-23T21:31:14 IST" name="beforetest" finished-at="2023-11-23T21:31:20 IST" duration-ms="6332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="SearchOperation()[pri:0, instance:Test_Scenarios.TestMethod_Google_Search@17f9d882]" started-at="2023-11-23T21:31:20 IST" name="SearchOperation" finished-at="2023-11-23T21:31:23 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOperation -->
+        <test-method signature="verifyFcebbokAccess()[pri:0, instance:Test_Scenarios.TestMethod_Google_Search@17f9d882]" started-at="2023-11-23T21:31:23 IST" name="verifyFcebbokAccess" finished-at="2023-11-23T21:31:26 IST" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFcebbokAccess -->
+        <test-method signature="verify_Facebook_login()[pri:0, instance:Test_Scenarios.TestMethod_Google_Search@17f9d882]" started-at="2023-11-23T21:31:26 IST" name="verify_Facebook_login" finished-at="2023-11-23T21:31:39 IST" duration-ms="13049" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Facebook] but found [Log in to Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Facebook] but found [Log in to Facebook]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Objects.Facebookpage.clickbtn(Facebookpage.java:31)
+at Test_Scenarios.TestMethod_Google_Search.verify_Facebook_login(TestMethod_Google_Search.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Facebook_login -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Test_Scenarios.TestMethod_Google_Search@17f9d882]" started-at="2023-11-23T21:31:39 IST" name="aftertest" finished-at="2023-11-23T21:31:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Test_Scenarios.TestMethod_Google_Search -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

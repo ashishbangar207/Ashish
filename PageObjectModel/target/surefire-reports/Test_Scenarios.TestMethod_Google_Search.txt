@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Test_Scenarios.TestMethod_Google_Search
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.151 s - in Test_Scenarios.TestMethod_Google_Search
