@@ -25,6 +25,8 @@ public class TestMethod_Google_Search {
 		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get("https://www.google.com/");
+		driver.get("https://www.google.com/");
+
 		driver.manage().window().maximize();
 	}
 	
